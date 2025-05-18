@@ -1,0 +1,35 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+}
+.hero {
+  background: url('images/poster.jpg') center/cover no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+.gallery, .itinerary, .sun, .booking {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.images {
+  display: flex;
+  gap: 10px;
+}
+.images img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 12px;
+}
+.booking img {
+  width: 120px;
+  margin-top: 20px;
+}
